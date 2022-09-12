@@ -1,0 +1,161 @@
+* {
+	font-family: "Montserrat", sans-serif;
+	box-sizing: border-box;
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: rgba(0 , 0, 0, .05);
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+p, li, {
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0;
+}
+
+h1 {
+	font-size: 45px;
+	line-height: 55px;
+	margin: 12px 0;
+}
+
+h2 {
+	font-size: 14px;
+	line-height: 17px;
+	margin: 10px 0;
+}
+
+h3 {
+	font-size: 22px;
+	line-height: 27px;
+	margin: 9px 0;
+}
+
+h4 {
+	font-size: 16px;
+	line-height: 20px;
+	margin: 8px 0;
+}
+
+h2, h5 {
+	font-size: 14px;
+	line-height: 17px;
+	margin: 7px 0;
+}
+
+ul {
+	padding:0;
+	list-style: none;
+}
+
+ol {
+	padding: 0;
+}
+
+.main-content {
+	display: flex;
+	margin: 40px auto;
+	flex-direction: row-reverse;
+	width: 1200px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+	background-color: #fff;
+}
+
+.about-section {
+	width: 100%;
+	padding: 90px;
+}
+
+.about {
+	width: 60%;
+	margin: 10px 0;
+}
+
+.colorize-text {
+	color: orangered;
+}
+
+.bold-num {
+	font-weight: 700;
+	width: 1.5em;
+}
+
+.list-tech {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.dot {
+	flex: 1 0;
+	border-bottom: 1px dotted #333;
+	height: 1em;
+	margin: 0 .4em;
+}
+
+.tech::before {
+	content: "[ ";
+	font-weight: 700;
+}
+
+.tech::after {
+	content: " ]";
+	font-weight: 700;
+}
+
+aside {
+	padding: 40px 5px;
+	width: 20%;
+	min-width: 370px;
+	background-color: #124;
+	color: #fff;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+h1, h3, h4, aside h3:not{
+	color: #124;
+}
+
+.contacts a,
+.work-experience p,
+.education p {
+	color: #bbb;
+}
+
+.aside-content {
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+.mark-style li:before {
+	content: "•";
+	color: orangered;
+	font-weight: 700;
+	padding-right: .5em;
+}
+
+.contacts span {
+	font-weight: 700;
+	margin-right: 1em;
+}
+
+.projects,
+.work-experience,
+.education,
+.skills {
+	margin-top: 40px;
+}
